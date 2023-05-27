@@ -64,7 +64,7 @@ data=np.insert(data, 0,0)
 
 # # se escoge el Channel que se quiere analizar (1-6)
 # canal = 1
-# sampling_rate = 2048 # frecuencia de muestero: número de medidas por segundo
+# sampling_rate = 2048 # frecuencia de muestreo: número de medidas por segundo
 # data = df_x['Channel: ' + str(canal)]
 ##############################################################################
 
