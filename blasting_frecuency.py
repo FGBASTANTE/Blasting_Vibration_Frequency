@@ -26,7 +26,6 @@ ts = 1.0/sampling_rate
 time = np.arange(0, 4/10, ts) # duración de la onda
 freq = 10. # frequency (Hertz)
 data = (0.75*np.sin(2*np.pi*freq*time))*np.exp(-8*time)
-data=np.insert(data, 0,0)
 #................................................................
 # ejemplo 2_Onda con componentes de diferentes frecuencias con entrada en 
 # distintos tiempos. Decomentar para examinarlo
